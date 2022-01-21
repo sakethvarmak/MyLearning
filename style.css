@@ -161,3 +161,64 @@ h3 {
   font-size: 14px;
   color: #000000;
 }
+
+@media screen and (max-width: 700px) {
+   body {
+    width: 100%;
+  }
+   .block {
+    top:50%;
+    left:50%;
+    transform:translate(-50%,0%);
+    width:200px;
+    height:1100px;
+  }
+  .block_size {
+    top: 10%;
+    left:40%;
+    transform:translate(-50%,-50%);
+    width:200px;
+    height:300px;
+  }
+  .head {
+    top: 0%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width:200px;
+    height:60px;
+  }
+  .head li {
+    padding: 5px 10px;
+    left: 0%;
+    top: 80%;
+  
+  }
+  .head h3 {
+    font-size: 18px;
+  }
+  .course {
+    margin-top: 50px;
+  }
+  .line {
+    height: 1000px;
+    position: absolute;
+    left: 35%;
+    margin-top: 100px;
+
+  }
+  h1 {
+    font-size: 40px;
+    line-height: 66px;
+    margin-left: 50px;
+
+  }
+  .btn ul {
+    position: fixed;
+    width: 100px;
+
+  }
+  .btn a {
+    padding: 10px 30px;
+  }
+
+}
